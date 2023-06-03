@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MaterialDesign" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorPrimary">#FF0101</item>
+        <item name="colorOnSurface">#FF0101</item>
+
+
+        <item name="chipStyle">@style/MyChipStyle</item>
+        <item name="textInputStyle">@style/MyTextInputLayoutStyle</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+    </style>
+
+    <style name="Theme.MaterialDesign" parent="Base.Theme.MaterialDesign" />
+
+    <style name="MyChipStyle" parent="Widget.Material3.Chip.Filter">
+        <item name="helperTextTextColor">#3E53DC</item>
+    </style>
+
+    <style name="MyTextInputLayoutStyle" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="chipBackgroundColor">@drawable/my_selector_backgroundchip</item>
+        <item name="rippleColor">#7F8E56</item>
+    </style>
+
+
+</resources>
