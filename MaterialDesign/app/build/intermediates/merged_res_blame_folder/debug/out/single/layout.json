@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "space.mairi.materialdesign.app-mergeDebugResources-44:/layout/fragment_picture.xml",
+        "source": "space.mairi.materialdesign.app-main-47:/layout/fragment_picture.xml"
+    },
+    {
+        "merged": "C:\\Users\\wefin\\.gradle\\daemon\\7.5\\space.mairi.materialdesign.app-mergeDebugResources-44:\\layout\\fragment_picture.xml",
+        "source": "C:\\Users\\wefin\\.gradle\\daemon\\7.5\\space.mairi.materialdesign.app-main-47:\\layout\\fragment_picture.xml"
+    },
+    {
+        "merged": "C:\\Users\\wefin\\.gradle\\daemon\\7.5\\space.mairi.materialdesign.app-mergeDebugResources-44:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\wefin\\.gradle\\daemon\\7.5\\space.mairi.materialdesign.app-main-47:\\layout\\activity_main.xml"
+    }
+]
